@@ -1,0 +1,135 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(36,53,63);
+}
+h1
+{
+    color: rgb(23,162,184);
+}
+.form-div
+{
+    background-color: rgb(36,53,63);
+    box-shadow: 1px 2px 20px 15px rgb(22,33,39);
+    padding: 80px 30px;
+}
+.SignUp_Login_Btn
+{
+border: 2px solid rgb(23,162,184);
+color: rgb(23,162,184);
+background-color: transparent;
+width: 100%;
+padding: 5px 0px;
+border-radius: 5px;
+transition: 0.3s all;
+}
+.SignUp_Login_Btn:hover
+{
+    background-color:rgb(23,162,184);
+    color: white;
+}
+.shadow-div
+{
+    background-color: rgb(35,52,62);
+    padding: 50px;
+    width: 60%;
+    border-radius: 100px;
+}
+.form-control
+{
+    background-color: rgb(36,53,63);
+    color:white;
+}
+.fit-content
+{
+    width: fit-content;
+}
+.form-control::placeholder
+ {
+    color:rgb(182,182,182);
+ }
+ .form-control:focus {
+    color:white;
+    background-color:transparent;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 ;
+}
+a
+{
+text-decoration: none;
+color: white;
+ }
+ a:hover
+ {
+    text-decoration: underline;
+ }
+ .btn 
+ {
+background-color: rgb(36,53,63) ;
+color:rgb(182,182,182);
+}
+.btn:hover
+{
+    background-color:rgb(255,193,7) ; 
+    color: white; 
+}
+.navbar
+{
+ background-color: rgb(36,53,63) !important ;  
+}
+ @media screen and (min-width: 0px) and (max-width:576px) 
+{
+    .shadow-div
+    {
+        width: 85%;
+    }
+    .form-div
+{
+    padding: 90px 35px;
+}
+.btn 
+{
+width: 100%;
+}
+}
+@media screen and (min-width: 576px) and (max-width:770px) 
+{
+    .shadow-div
+    {
+        width: 85%;
+    }
+    .form-div
+{
+    padding: 90px 35px;
+}
+.btn 
+{
+width: 100%;
+}
+}
+
+@media screen and (min-width: 770px) and (max-width:994px) 
+{
+    .btn 
+    {
+    width: 100%;
+    }  
+
+}
+@media screen and (min-width: 994px) and (max-width:1202px) 
+{
+    .btn 
+    {
+    width: 100%;
+    }  
+}
+  
+
+
+
